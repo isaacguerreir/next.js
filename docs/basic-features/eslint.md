@@ -34,19 +34,19 @@ yarn lint
 
 One of the following three options can be selected:
 
-- **Strict**: Includes Next.js' base ESLint configuration along with a stricter [Core Web Vitals rule-set](/docs/basic-features/eslint.md#core-web-vitals). This is the recommended configuration for developers setting up ESLint for the first time.
-
-  ```json
-  {
-    "extends": "next/core-web-vitals"
-  }
-  ```
-
 - **Base**: Includes Next.js' base ESLint configuration.
 
   ```json
   {
     "extends": "next"
+  }
+  ```
+
+- **Strict**: Includes Next.js' base ESLint configuration along with a stricter [Core Web Vitals rule-set](/docs/basic-features/eslint.md#core-web-vitals). This is the recommended configuration for developers setting up ESLint for the first time.
+
+  ```json
+  {
+    "extends": "next/core-web-vitals"
   }
   ```
 
